@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="52dp"
+    android:background="@android:color/white">
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:textColor="#218EFF"
+        android:text="出租房 "/>
+    <ImageView
+        android:id="@+id/iv_checked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:src="@mipmap/ic_checked"/>
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15.5dp"
+        android:background="#EEEEEE"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
