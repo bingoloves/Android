@@ -35,10 +35,22 @@ dependencies {
     implementation deps.recyclerview
     implementation deps.butterknife
     annotationProcessor deps.butterknifeCompiler
+    implementation deps.smartRefresh
+    implementation deps.smartRefreshHeader
+    implementation deps.flycoTabLayout
+    implementation deps.rxpermissions
+    implementation deps.agentweb
+    implementation deps.gson
     //本地仓库
 //    implementation ('cn.cqs:common:1.0.0')
     implementation 'com.github.bingoloves:common:1.0.4'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    implementation 'com.github.sendtion:XRichText:1.9.4'
+    implementation 'cn.jzvd:jiaozivideoplayer:7.0.4'
+//    implementation 'cn.jzvd:jiaozivideoplayer:release'
+    //知乎图片选择 https://github.com/zhihu/Matisse
+    implementation 'com.zhihu.android:matisse:0.5.2-beta4'
 }

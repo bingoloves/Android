@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
     <cn.cqs.baselib.widget.CustomToolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="44dp"
         android:background="@android:color/white"
-        app:leftIcon="@drawable/ic_back"
-        app:title="Test"/>
-    <Button
-        android:id="@+id/btn_test"
+        app:title="百度"/>
+    <LinearLayout
+        android:id="@+id/container"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="测试代码" />
+        android:layout_height="match_parent"
+        android:orientation="vertical"/>
 </LinearLayout>

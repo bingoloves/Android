@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.cqs.baselib.widget.shadow.ShadowLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:hl_cornerRadius="4dp"
+    app:hl_shadowColor="#1400285b"
+    app:hl_shadowLimit="4dp">
+    <cn.cqs.baselib.widget.alpha.XUIAlphaRelativeLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:layout_gravity="center"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:xui_radius="4dp">
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="全息档案"
+            android:layout_margin="10dp"
+            android:textSize="12sp"
+            android:textColor="#00172F"/>
+    </cn.cqs.baselib.widget.alpha.XUIAlphaRelativeLayout>
+</cn.cqs.baselib.widget.shadow.ShadowLayout>
